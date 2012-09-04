@@ -1,3 +1,22 @@
+/* FullScreenBackground Jquery Plugin by Maximiliano Benedetto 
+https://github.com/maxijb/fullScreenBackground
+
+Using this plugins is very easy. Just use this in any image you want to fill the screen size.
+ 
+    $('img#bigImage').backgroundFullSize();
+
+It will preload the image discretly, without showing it until is fully loaded and will fade it in gracefully.
+
+You can customize the scale, the fade speed, and auto positioning of the image like this:
+
+    $('img#bigImage').backgroundFullSize({
+              proportional: true, //or false if you don't want to respect the orginial proportion
+              fadeTime : 500, //in milliseconds
+              autoPosition : true // set this to false if you wnat to handle the image position by your own
+     });
+	 
+	 */
+
 (function( $ ){
 
 
